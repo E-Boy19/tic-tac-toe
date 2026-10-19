@@ -69,17 +69,17 @@ int main() {
         winner_symbol = checkResults(inputs);
 
         if (winner_symbol == user.symbol) {
-            cout << "Congratulations! You won, " << user.name << ".\n";
+            cout << "\nCongratulations! You won, " << user.name << ".\n";
             break;
         }
 
         if (winner_symbol == robot.symbol) {
-            cout << "Computer wins!\n";
+            cout << "\nComputer wins!\n";
             break;
         }
 
         if (winner_symbol == 'D') {
-            cout << "The game is a draw!\n";
+            cout << "\nThe game is a draw!\n";
             break;
         }
 
